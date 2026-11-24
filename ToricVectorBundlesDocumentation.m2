@@ -583,6 +583,7 @@ doc ///
     SeeAlso
         twist
         (tensor,ToricVectorBundle, ToricVectorBundle)
+        lineBundleKaneyama
 ///
 
 
@@ -616,6 +617,7 @@ doc ///
       (tensor, ToricVectorBundle, ToricVectorBundle)
       (symbol ++,  ToricVectorBundle, ToricVectorBundle)
       twist
+      toricVectorBundleKaneyama
 ///
 
 
@@ -659,6 +661,7 @@ doc ///
         cotangentBundle
         tangentBundleKaneyama
         cotangentBundleKaneyama
+        (dual, ToricVectorBundleKaneyama)
 ///
 
 doc ///
@@ -894,6 +897,8 @@ doc ///
             details E
     SeeAlso
         cotangentBundle
+        tangentBundleKaneyama
+        cotangentBundleKaneyama
 ///
 
 -- TODO Update and add Kaneyama version
@@ -930,7 +935,7 @@ doc ///
     Caveat
         The ordering of the list @TT "L"@ must correspond to the ordering of the rays of the fan as taken by @TO "NormalToricVarieties::NormalToricVarieties"@.
     SeeAlso
-         lineBundle
+        lineBundle
         details
 ///
 
@@ -939,6 +944,7 @@ doc ///
     Key
         areIsomorphic
         (areIsomorphic,ToricVectorBundle,ToricVectorBundle)
+        (symbol ==,ToricVectorBundle,ToricVectorBundle)
     Headline
         checks if two vector bundles are isomorphic
     Usage
@@ -983,7 +989,7 @@ doc ///
 -- TODO Update and add Kaneyama version
 doc ///
     Key
-        (symbol ==,ToricVectorBundle,ToricVectorBundle)
+        (symbol ==,ToricVectorBundleKaneyama,ToricVectorBundleKaneyama)
     Headline
         checks for isomorphism or equality
     Usage
